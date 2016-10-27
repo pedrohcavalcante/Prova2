@@ -35,9 +35,10 @@ public class DAO implements GenericDAO{
 	}
 	
 	public void listarPessoa(Pessoa pessoa){
-		System.out.println("*****PESSOA*****");
+		
 		
 		for (Pessoa p : arrayPessoa){
+			System.out.println("*****PESSOA*****");
 			System.out.println("Nome: " + p.getNome());
 			System.out.println("Endereço: " + p.getEndereço());
 			System.out.println("Sexo: " + p.getSexo());
@@ -46,8 +47,9 @@ public class DAO implements GenericDAO{
 		}
 	}
 	public void listarEmpregado(){
-		System.out.println("*****EMPREGADO*****");
+		
 		for (Empregado e : arrayEmpregado){
+			System.out.println("*****EMPREGADO*****");
 			System.out.println("Nome: " + e.getNome());
 			System.out.println("Endereço: " + e.getEndereço());
 			System.out.println("Sexo: " + e.getSexo());
@@ -58,8 +60,9 @@ public class DAO implements GenericDAO{
 		
 	}
 	public void listarFornecedor(){
-		System.out.println("*****FORNECEDOR*****");
+		
 		for (Fornecedor f : arrayFornecedor){
+			System.out.println("*****FORNECEDOR*****");
 			System.out.println("Nome: " + f.getNome());
 			System.out.println("Endereço: " + f.getEndereço());
 			System.out.println("Sexo: " + f.getSexo());
@@ -70,8 +73,9 @@ public class DAO implements GenericDAO{
 	}
 	
 	public void listarSetor(){
-		System.out.println("*****SETOR*****");
+		
 		for (Setor s : arraySetor){
+			System.out.println("*****SETOR*****");
 			System.out.println("Código: " + s.getCodigoSetor());
 			System.out.println("Descrição: " + s.getDescricaoSetor());
 		}
